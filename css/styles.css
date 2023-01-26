@@ -51,7 +51,7 @@ main img {
 footer .fixed-bottom a svg {
   height: 30px;
 }
-@media (max-width: 425px) {
+@media (max-width: 382px) {
   .overflow-hidden {
     display: flex;
     background-color: antiquewhite;
