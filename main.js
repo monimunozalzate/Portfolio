@@ -2,10 +2,10 @@ const cardContainer =  document.querySelector('.card-container')
 
 const pageList = [];
 pageList.push({
-  name: "Yard Sale",
+  name: "Portfolio",
   languages: 'HTML, CSS, JS',
   image:
-    "https://monimunozalzate.github.io/curso-frontend-developer-js/",
+    "https://monimunozalzate.github.io/Portfolio/",
 });
 pageList.push({
     name: "Yard Sale",
