@@ -52,7 +52,7 @@ main img {
 footer .fixed-bottom a svg {
   height: 30px;
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .overflow-hidden {
     display: flex;
     background-color: antiquewhite;
@@ -106,9 +106,6 @@ footer .fixed-bottom a svg {
   }
 }
 /* ---------- projects------------ */
-main {
-  flex-direction: row;
-}
 .card {
   width: 18rem;
   height: 20rem;
