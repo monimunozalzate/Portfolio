@@ -63,11 +63,11 @@ function renderCards (arr){
         cardBody.appendChild(cardTitle)
         cardBody.appendChild(cardText)
 
-        card.appendChild(a)
         card.appendChild(shownPage)
-        card.appendChild(cardBody)
-
+        card.appendChild(a)
+        a.appendChild(cardBody)
         cardContainer.appendChild(card)
+
 
         
     }
