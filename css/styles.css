@@ -52,7 +52,7 @@ main img {
 footer .fixed-bottom a svg {
   height: 30px;
 }
-@media (max-width: 382px) {
+@media (max-width: 320px) {
   .overflow-hidden {
     display: flex;
     background-color: antiquewhite;
@@ -100,14 +100,18 @@ footer .fixed-bottom a svg {
   footer .fixed-bottom a svg {
     height: 15px;
   }
+  .card{
+    width: 16rem;
+    height: 20rem;
+  }
 }
 /* ---------- projects------------ */
 main {
   flex-direction: row;
 }
 .card {
-  width: 22rem;
-  height: 24rem;
+  width: 18rem;
+  height: 20rem;
 }
 
 iframe {
@@ -120,6 +124,8 @@ iframe {
 .card-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+    align-items: center;
   gap: 4rem;
 }
 /* ---------resume---------------------------- */
@@ -179,9 +185,8 @@ a {
 .contactInfo{
   flex-direction: column;
 }
-
 form{
   border: 1px solid black;
   border-radius: 5%;
-  padding: 2rem;
+  padding: 1rem;
 }

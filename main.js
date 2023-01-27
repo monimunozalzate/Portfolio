@@ -20,10 +20,10 @@ pageList.push({
       "http://collage-experiencias.com/",
   });
   pageList.push({
-    name: "Yard Sale",
+    name: "Super heroes",
     languages: 'HTML, CSS, JS',
     image:
-      "https://monimunozalzate.github.io/curso-frontend-developer-js/",
+      "https://monimunozalzate.github.io/heroes/",
   });
   pageList.push({
     name: "Perfume",
