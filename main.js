@@ -1,50 +1,44 @@
-const cardContainer =  document.querySelector('.card-container')
+const cardContainer = document.querySelector('.card-container')
 
 const pageList = [];
 pageList.push({
-  name: "Portfolio",
-  languages: 'HTML, CSS, JS',
-  image:
-    "https://monimunozalzate.github.io/Portfolio/",
+    name: "Portfolio",
+    languages: 'HTML, CSS, JS',
+    image: "https://monimunozalzate.github.io/Portfolio/",
 });
 pageList.push({
     name: "Yard Sale",
     languages: 'HTML, CSS, JS',
-    image:
-      "https://monimunozalzate.github.io/curso-frontend-developer-js/",
-  });
-  pageList.push({
+    image: "https://monimunozalzate.github.io/curso-frontend-developer-js/",
+});
+pageList.push({
     name: "Collage",
     languages: 'HTML, CSS',
-    image:
-      "http://collage-experiencias.com/",
-  });
-  pageList.push({
+    image: "https://monimunozalzate.github.io/renovando/",
+});
+pageList.push({
     name: "Super heroes",
     languages: 'HTML, CSS, JS',
-    image:
-      "https://monimunozalzate.github.io/heroes/",
-  });
-  pageList.push({
+    image: "https://monimunozalzate.github.io/heroes/",
+});
+pageList.push({
     name: "Perfume",
     languages: 'HTML, CSS',
-    image:
-      "https://frontend-mentor-perfume-indol.vercel.app/",
-  });
-  pageList.push({
+    image: "https://frontend-mentor-perfume-indol.vercel.app/",
+});
+pageList.push({
     name: "Insights",
     languages: 'HTML, CSS',
-    image:
-      "https://challenge2-fovypesb3-monimunozalzate.vercel.app/",
-  });
+    image: "https://challenge2-fovypesb3-monimunozalzate.vercel.app/",
+});
 
-function renderCards (arr){
-    for(page of arr){
+function renderCards(arr) {
+    for (page of arr) {
         const card = document.createElement("div");
         card.classList.add("card");
 
         const a = document.createElement('a')
-        a.setAttribute('href', page.image) 
+        a.setAttribute('href', page.image)
 
         const shownPage = document.createElement('iframe')
         shownPage.setAttribute('src', page.image)
@@ -69,7 +63,7 @@ function renderCards (arr){
         cardContainer.appendChild(card)
 
 
-        
+
     }
 }
 renderCards(pageList)
