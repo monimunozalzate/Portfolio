@@ -2,7 +2,7 @@ const cardContainer = document.querySelector('.card-container')
 
 const pageList = [];
 pageList.push({
-    name: "Dentist Clinic",
+    name: "Dentist",
     languages: 'React, HTML, CSS',
     image: "https://monimunozalzate.github.io/ClinicaOdontologicaReact/",
 });
@@ -27,14 +27,9 @@ pageList.push({
     image: "https://monimunozalzate.github.io/calculadora/",
 });
 pageList.push({
-    name: "Perfume",
-    languages: 'HTML, CSS',
-    image: "https://frontend-mentor-perfume-indol.vercel.app/",
-});
-pageList.push({
-    name: "Insights",
-    languages: 'HTML, CSS',
-    image: "https://challenge2-fovypesb3-monimunozalzate.vercel.app/",
+    name: "ToDo app",
+    languages: 'HTML, CSS, React',
+    image: "https://monimunozalzate.github.io/toDoApp/",
 });
 
 function renderCards(arr) {
