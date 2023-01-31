@@ -2,9 +2,9 @@ const cardContainer = document.querySelector('.card-container')
 
 const pageList = [];
 pageList.push({
-    name: "Portfolio",
-    languages: 'HTML, CSS, JS',
-    image: "https://monimunozalzate.github.io/Portfolio/",
+    name: "Dentist Clinic",
+    languages: 'React, HTML, CSS',
+    image: "https://monimunozalzate.github.io/ClinicaOdontologicaReact/",
 });
 pageList.push({
     name: "Yard Sale",
@@ -12,14 +12,19 @@ pageList.push({
     image: "https://monimunozalzate.github.io/curso-frontend-developer-js/",
 });
 pageList.push({
+    name: "Portfolio",
+    languages: 'HTML, CSS, JS',
+    image: "https://monimunozalzate.github.io/Portfolio/",
+});
+pageList.push({
     name: "Collage",
     languages: 'HTML, CSS',
     image: "https://monimunozalzate.github.io/renovando/",
 });
 pageList.push({
-    name: "Super heroes",
-    languages: 'HTML, CSS, JS',
-    image: "https://monimunozalzate.github.io/heroes/",
+    name: "Calculadora",
+    languages: 'HTML, CSS, React',
+    image: "https://monimunozalzate.github.io/calculadora/",
 });
 pageList.push({
     name: "Perfume",
