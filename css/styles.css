@@ -125,12 +125,14 @@ footer .fixed-bottom a svg {
 
 .card {
     width: 18rem;
-    height: 20rem;
+    height: 24rem;
 }
 
 iframe {
     width: 100%;
     height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .card-body {
