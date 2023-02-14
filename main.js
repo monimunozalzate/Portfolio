@@ -2,19 +2,9 @@ const cardContainer = document.querySelector('.card-container')
 
 const pageList = [];
 pageList.push({
-    name: "Dentist",
-    languages: 'React, HTML, CSS',
-    image: "https://monimunozalzate.github.io/ClinicaOdontologicaReact/",
-});
-pageList.push({
     name: "Yard Sale",
     languages: 'HTML, CSS, JS',
     image: "https://monimunozalzate.github.io/curso-frontend-developer-js/",
-});
-pageList.push({
-    name: "Portfolio",
-    languages: 'HTML, CSS, JS',
-    image: "https://monimunozalzate.github.io/Portfolio/",
 });
 pageList.push({
     name: "Collage",
@@ -22,14 +12,24 @@ pageList.push({
     image: "https://monimunozalzate.github.io/renovando/",
 });
 pageList.push({
-    name: "Calculadora",
+    name: "Portfolio",
+    languages: 'HTML, CSS, JS',
+    image: "https://monimunozalzate.github.io/Portfolio/",
+});
+pageList.push({
+    name: "Formularios",
+    languages: 'React, HTML, CSS',
+    image: "https://formularios-peach.vercel.app/",
+});
+pageList.push({
+    name: "Agregar peliculas",
     languages: 'HTML, CSS, React',
-    image: "https://monimunozalzate.github.io/calculadora/",
+    image: "https://app-movies-two.vercel.app/",
 });
 pageList.push({
     name: "ToDo app",
-    languages: 'HTML, CSS, React',
-    image: "https://monimunozalzate.github.io/toDoApp/",
+    languages: 'React, HTML, CSS',
+    image: "https://to-do-app-gamma-five.vercel.app/",
 });
 
 function renderCards(arr) {
