@@ -1,6 +1,16 @@
 const cardContainer = document.querySelector('.card-container')
 
 const pageList = [];
+// pageList.push({
+//     name: "Booking",
+//     languages: 'REACTJS, HTML, CSS, Mui, Yup, Formik',
+//     image: "https://front-dental-clinic.vercel.app/",
+// });
+pageList.push({
+    name: "Dental Clinic",
+    languages: 'REACTJS, HTML, CSS, Mui, Yup, Formik',
+    image: "https://front-dental-clinic.vercel.app/",
+});
 pageList.push({
     name: "Yard Sale",
     languages: 'HTML, CSS, JS',
@@ -13,17 +23,17 @@ pageList.push({
 });
 pageList.push({
     name: "Portfolio",
-    languages: 'HTML, CSS, JS',
+    languages: 'HTML, CSS, JS, Bootstrap',
     image: "https://monimunozalzate.github.io/Portfolio/",
 });
 pageList.push({
     name: "Formularios",
-    languages: 'React, HTML, CSS',
+    languages: 'React, HTML, CSS, Formik, Yup',
     image: "https://formularios-peach.vercel.app/",
 });
 pageList.push({
     name: "Agregar peliculas",
-    languages: 'HTML, CSS, React',
+    languages: 'HTML, CSS, React, JsonServer',
     image: "https://app-movies-two.vercel.app/",
 });
 pageList.push({

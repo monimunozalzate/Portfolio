@@ -127,8 +127,8 @@
     /* ---------- projects------------ */
     
     .card {
-        width: 18rem;
-        height: 24rem;
+        width: 26rem;
+        height: 30rem;
     }
     
     iframe {
@@ -211,7 +211,7 @@
     }
     
     .social a svg {
-        width: 18%;
+        width: 12%;
     }
     
     .contactInfo {
@@ -221,5 +221,6 @@
     form {
         border: 1px solid black;
         border-radius: 5%;
-        padding: 1rem;
+        padding: 2rem;
+        margin: 2rem;
     }
