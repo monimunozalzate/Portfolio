@@ -1,20 +1,26 @@
 const cardContainer = document.querySelector('.card-container')
 
 const pageList = [];
-// pageList.push({
-//     name: "Booking",
-//     languages: 'REACTJS, HTML, CSS, Mui, Yup, Formik',
-//     image: "https://front-dental-clinic.vercel.app/",
-// });
+
 pageList.push({
     name: "Dental Clinic",
     languages: 'REACTJS, HTML, CSS, Mui, Yup, Formik',
     image: "https://front-dental-clinic.vercel.app/",
 });
 pageList.push({
+    name: "DataBase dental clinic",
+    languages: 'Java, sprintBoot, Sprint security, Boostrap/ user: admin@gmail.com, pass: digital ',
+    image: "https://dentistclinicproject-production.up.railway.app",
+});
+pageList.push({
     name: "Yard Sale",
     languages: 'HTML, CSS, JS',
     image: "https://monimunozalzate.github.io/curso-frontend-developer-js/",
+});
+pageList.push({
+    name: "Agregar peliculas",
+    languages: 'HTML, CSS, React, JsonServer',
+    image: "https://app-movies-two.vercel.app/",
 });
 pageList.push({
     name: "Collage",
@@ -26,21 +32,17 @@ pageList.push({
     languages: 'HTML, CSS, JS, Bootstrap',
     image: "https://monimunozalzate.github.io/Portfolio/",
 });
-pageList.push({
-    name: "Formularios",
-    languages: 'React, HTML, CSS, Formik, Yup',
-    image: "https://formularios-peach.vercel.app/",
-});
-pageList.push({
-    name: "Agregar peliculas",
-    languages: 'HTML, CSS, React, JsonServer',
-    image: "https://app-movies-two.vercel.app/",
-});
-pageList.push({
-    name: "ToDo app",
-    languages: 'React, HTML, CSS',
-    image: "https://to-do-app-gamma-five.vercel.app/",
-});
+// pageList.push({
+//     name: "Formularios",
+//     languages: 'React, HTML, CSS, Formik, Yup',
+//     image: "https://formularios-peach.vercel.app/",
+// });
+
+// pageList.push({
+//     name: "ToDo app",
+//     languages: 'React, HTML, CSS',
+//     image: "https://to-do-app-gamma-five.vercel.app/",
+// });
 
 function renderCards(arr) {
     for (page of arr) {
