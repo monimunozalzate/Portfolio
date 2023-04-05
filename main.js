@@ -1,7 +1,11 @@
 const cardContainer = document.querySelector('.card-container')
 
 const pageList = [];
-
+pageList.push({
+    name: "Digital Booking",
+    languages: 'REACTJS, HTML, CSS, MySQL, Java, AWS',
+    image: "http://equipo10-digitalbooking-frontend.s3-website.us-east-2.amazonaws.com/#/",
+});
 pageList.push({
     name: "Dental Clinic",
     languages: 'REACTJS, HTML, CSS, Mui, Yup, Formik',
@@ -17,11 +21,11 @@ pageList.push({
     languages: 'HTML, CSS, JS',
     image: "https://monimunozalzate.github.io/curso-frontend-developer-js/",
 });
-pageList.push({
-    name: "Agregar peliculas",
-    languages: 'HTML, CSS, React, JsonServer',
-    image: "https://app-movies-two.vercel.app/",
-});
+// pageList.push({
+//     name: "Agregar peliculas",
+//     languages: 'HTML, CSS, React, JsonServer',
+//     image: "https://app-movies-two.vercel.app/",
+// });
 pageList.push({
     name: "Collage",
     languages: 'HTML, CSS',
