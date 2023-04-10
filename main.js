@@ -25,12 +25,12 @@ pageList.push({
     url: "https://monimunozalzate.github.io/curso-frontend-developer-js/",
     img: 'img/monimunozalzate.github.io_curso-frontend-developer-js_.png'
 });
-pageList.push({
-    name: "Agregar peliculas",
-    languages: 'HTML, CSS, React, JsonServer',
-    url: "https://app-movies-two.vercel.app/",
-    img: ''
-});
+// pageList.push({
+//     name: "Agregar peliculas",
+//     languages: 'HTML, CSS, React, JsonServer',
+//     url: "https://app-movies-two.vercel.app/",
+//     img: ''
+// });
 pageList.push({
     name: "Collage",
     languages: 'HTML, CSS',

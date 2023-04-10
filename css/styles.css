@@ -63,6 +63,11 @@ footer .fixed-bottom a svg {
     height: 30px;
 }
 
+footer .fixed-bottom a svg:hover {
+    filter: brightness(0.8);
+    transform: scale(1.01);
+}
+
 @media (max-width: 425px) {
     .overflow-hidden {
         display: flex;
@@ -129,13 +134,17 @@ footer .fixed-bottom a svg {
 /* ---------- projects------------ */
 
 .card {
-    width: 26rem;
+    width: 22rem;
     height: 44rem;
+}
+
+.card:hover {
+    transform: scale(1.01);
 }
 
 .image {
     width: 100%;
-    height: auto;
+    height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -157,6 +166,7 @@ footer .fixed-bottom a svg {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    width: 100%;
 }
 
 
