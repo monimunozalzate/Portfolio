@@ -233,6 +233,18 @@ form {
 
 @media (max-width: 600px) {
     .card {
-        width: 16px;
+        width: 26rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .card {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 330px) {
+    .card {
+        width: 17rem;
     }
 }
