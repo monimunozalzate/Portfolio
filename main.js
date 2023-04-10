@@ -4,48 +4,57 @@ const pageList = [];
 pageList.push({
     name: "Digital Booking",
     languages: 'REACTJS, HTML, CSS, MySQL, Java, AWS',
-    image: "http://equipo10-digitalbooking-frontend.s3-website.us-east-2.amazonaws.com/#/",
+    url: "http://equipo10-digitalbooking-frontend.s3-website.us-east-2.amazonaws.com/#/",
+    img: 'img/equipo10-digitalbooking-frontend.s3-website.us-east-2.amazonaws.com_ (1).png'
 });
 pageList.push({
     name: "Dental Clinic",
     languages: 'REACTJS, HTML, CSS, Mui, Yup, Formik',
-    image: "https://front-dental-clinic.vercel.app/",
+    url: "https://front-dental-clinic.vercel.app/",
+    img: 'img/front-dental-clinic.vercel.app_.png'
 });
 pageList.push({
     name: "DataBase dental clinic",
     languages: 'Java, sprintBoot, Sprint security, Boostrap/ user: admin@gmail.com, pass: digital ',
-    image: "https://dentistclinicproject-production.up.railway.app",
+    url: "https://dentistclinicproject-production.up.railway.app",
+    img: 'img/dentistclinicproject-production.up.railway.app_post_odontologo.html.png'
 });
 pageList.push({
     name: "Yard Sale",
     languages: 'HTML, CSS, JS',
-    image: "https://monimunozalzate.github.io/curso-frontend-developer-js/",
+    url: "https://monimunozalzate.github.io/curso-frontend-developer-js/",
+    img: 'img/monimunozalzate.github.io_curso-frontend-developer-js_.png'
 });
-// pageList.push({
-//     name: "Agregar peliculas",
-//     languages: 'HTML, CSS, React, JsonServer',
-//     image: "https://app-movies-two.vercel.app/",
-// });
+pageList.push({
+    name: "Agregar peliculas",
+    languages: 'HTML, CSS, React, JsonServer',
+    url: "https://app-movies-two.vercel.app/",
+    img: ''
+});
 pageList.push({
     name: "Collage",
     languages: 'HTML, CSS',
-    image: "https://monimunozalzate.github.io/renovando/",
+    url: "https://monimunozalzate.github.io/renovando/",
+    img: 'img/monimunozalzate.github.io_renovando_.png'
 });
 pageList.push({
     name: "Portfolio",
     languages: 'HTML, CSS, JS, Bootstrap',
-    image: "https://monimunozalzate.github.io/Portfolio/",
+    url: "https://monimunozalzate.github.io/Portfolio/",
+    img: 'img/monimunozalzate.github.io_Portfolio_.png'
 });
 // pageList.push({
 //     name: "Formularios",
 //     languages: 'React, HTML, CSS, Formik, Yup',
-//     image: "https://formularios-peach.vercel.app/",
+//     url: "https://formularios-peach.vercel.app/",
+// img: ''
 // });
 
 // pageList.push({
 //     name: "ToDo app",
 //     languages: 'React, HTML, CSS',
-//     image: "https://to-do-app-gamma-five.vercel.app/",
+//     url: "https://to-do-app-gamma-five.vercel.app/",
+// img: ''
 // });
 
 function renderCards(arr) {
@@ -54,10 +63,12 @@ function renderCards(arr) {
         card.classList.add("card");
 
         const a = document.createElement('a')
-        a.setAttribute('href', page.image)
+        a.classList.add('link')
+        a.setAttribute('href', page.url)
 
-        const shownPage = document.createElement('iframe')
-        shownPage.setAttribute('src', page.image)
+        const shownPage = document.createElement('img')
+        shownPage.classList.add('image')
+        shownPage.setAttribute('src', page.img)
 
         const cardBody = document.createElement("div");
         cardBody.classList.add("card-body");
@@ -73,7 +84,8 @@ function renderCards(arr) {
         cardBody.appendChild(cardTitle)
         cardBody.appendChild(cardText)
 
-        card.appendChild(shownPage)
+        // a.appendChild()
+        a.appendChild(shownPage)
         card.appendChild(a)
         a.appendChild(cardBody)
         cardContainer.appendChild(card)
