@@ -8,6 +8,12 @@ pageList.push({
     img: 'img/equipo10-digitalbooking-frontend.s3-website.us-east-2.amazonaws.com_ (1).png'
 });
 pageList.push({
+    name: "E-Commerce detail page",
+    languages: 'React, HTML, CSS, MUI',
+    url: "https://e-commerce-monimunozalzate.vercel.app//",
+    img: 'img/localhost_5173__.png'
+});
+pageList.push({
     name: "Dental Clinic",
     languages: 'REACTJS, HTML, CSS, Mui, Yup, Formik',
     url: "https://front-dental-clinic.vercel.app/",
