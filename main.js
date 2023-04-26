@@ -17,7 +17,7 @@ pageList.push({
     name: "Countries App",
     languages: 'REACTJS, HTML, CSS, Mui',
     url: "https://vercel.com/monimunozalzate/rest-countries",
-    img: 'img/countriesApp.pngg'
+    img: 'img/countriesApp.png'
 });
 // pageList.push({
 //     name: "DataBase dental clinic",
@@ -85,7 +85,4 @@ function renderCards(arr) {
 }
 renderCards(pageList)
 
-
-}
-}
 renderCards(pageList)
