@@ -14,29 +14,24 @@ pageList.push({
     img: 'img/localhost_5173__.png'
 });
 pageList.push({
-    name: "Dental Clinic",
-    languages: 'REACTJS, HTML, CSS, Mui, Yup, Formik',
-    url: "https://front-dental-clinic.vercel.app/",
-    img: 'img/front-dental-clinic.vercel.app_.png'
+    name: "Countries App",
+    languages: 'REACTJS, HTML, CSS, Mui',
+    url: "https://vercel.com/monimunozalzate/rest-countries",
+    img: 'img/countriesApp.pngg'
 });
-pageList.push({
-    name: "DataBase dental clinic",
-    languages: 'Java, sprintBoot, Sprint security, Boostrap/ user: admin@gmail.com, pass: digital ',
-    url: "https://dentistclinicproject-production.up.railway.app",
-    img: 'img/dentistclinicproject-production.up.railway.app_post_odontologo.html.png'
-});
+// pageList.push({
+//     name: "DataBase dental clinic",
+//     languages: 'Java, sprintBoot, Sprint security, Boostrap/ user: admin@gmail.com, pass: digital ',
+//     url: "https://dentistclinicproject-production.up.railway.app",
+//     img: 'img/dentistclinicproject-production.up.railway.app_post_odontologo.html.png'
+// });
 pageList.push({
     name: "Yard Sale",
     languages: 'HTML, CSS, JS',
     url: "https://monimunozalzate.github.io/curso-frontend-developer-js/",
     img: 'img/monimunozalzate.github.io_curso-frontend-developer-js_.png'
 });
-// pageList.push({
-//     name: "Agregar peliculas",
-//     languages: 'HTML, CSS, React, JsonServer',
-//     url: "https://app-movies-two.vercel.app/",
-//     img: ''
-// });
+
 pageList.push({
     name: "Collage",
     languages: 'HTML, CSS',
@@ -49,19 +44,7 @@ pageList.push({
     url: "https://monimunozalzate.github.io/Portfolio/",
     img: 'img/monimunozalzate.github.io_Portfolio_.png'
 });
-// pageList.push({
-//     name: "Formularios",
-//     languages: 'React, HTML, CSS, Formik, Yup',
-//     url: "https://formularios-peach.vercel.app/",
-// img: ''
-// });
 
-// pageList.push({
-//     name: "ToDo app",
-//     languages: 'React, HTML, CSS',
-//     url: "https://to-do-app-gamma-five.vercel.app/",
-// img: ''
-// });
 
 function renderCards(arr) {
     for (page of arr) {
@@ -99,5 +82,10 @@ function renderCards(arr) {
 
 
     }
+}
+renderCards(pageList)
+
+
+}
 }
 renderCards(pageList)
