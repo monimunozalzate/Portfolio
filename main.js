@@ -1,12 +1,12 @@
 const cardContainer = document.querySelector(".card-container");
 
 const pageList = [];
-pageList.push({
-    name: "Digital Booking",
-    languages: "REACTJS, HTML, CSS, MySQL, Java, AWS",
-    url: "http://equipo10-digitalbooking-frontend.s3-website.us-east-2.amazonaws.com/#/",
-    img: "img/equipo10-digitalbooking-frontend.s3-website.us-east-2.amazonaws.com_ (1).png",
-});
+// pageList.push({
+//     name: "Digital Booking",
+//     languages: "REACTJS, HTML, CSS, MySQL, Java, AWS",
+//     url: "http://equipo10-digitalbooking-frontend.s3-website.us-east-2.amazonaws.com/#/",
+//     img: "img/equipo10-digitalbooking-frontend.s3-website.us-east-2.amazonaws.com_ (1).png",
+// });
 pageList.push({
     name: "E-Commerce detail page",
     languages: "React, HTML, CSS, MUI",
