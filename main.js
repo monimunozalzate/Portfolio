@@ -16,7 +16,7 @@ pageList.push({
 pageList.push({
     name: "Countries App",
     languages: "REACTJS, HTML, CSS, Mui",
-    url: "https://vercel.com/monimunozalzate/rest-countries",
+    url: "https://rest-countries-puce-mu.vercel.app/",
     img: "img/countriesApp.png",
 });
 
