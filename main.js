@@ -8,18 +8,24 @@ const pageList = [];
 //     img: "img/equipo10-digitalbooking-frontend.s3-website.us-east-2.amazonaws.com_ (1).png",
 // });
 pageList.push({
-    name: "E-Commerce detail page",
-    languages: "React, HTML, CSS, MUI",
-    url: "https://e-commerce-monimunozalzate.vercel.app//",
-    img: "img/localhost_5173__.png",
-});
-pageList.push({
     name: "Countries App",
-    languages: "REACTJS, HTML, CSS, Mui",
+    languages: "REACTJS, AXIOS, MUI",
     url: "https://rest-countries-puce-mu.vercel.app/",
     img: "img/countriesApp.png",
 });
+pageList.push({
+    name: "Portfolio",
+    languages: "React, MUI, FORMIK, YUP",
+    url: "https://portfolio-react-rosy-zeta.vercel.app/",
+    img:"img/portfolio-react-rosy-zeta.vercel.app_ (1).png",
+});
 
+pageList.push({
+    name: "E-Commerce detail page",
+    languages: "React, HTML, CSS, MUI",
+    url: "https://e-commerce-monimunozalzate.vercel.app/",
+    img: "img/localhost_5173__.png",
+});
 pageList.push({
     name: "Yard Sale",
     languages: "HTML, CSS, JS",
