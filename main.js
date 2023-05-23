@@ -9,7 +9,7 @@ const pageList = [];
 // });
 pageList.push({
     name: "Audiophile E-Commerce",
-    languages: "REACTJS, REDUX, AXIOS, AWS ",
+    languages: "REACTJS, REDUX, AXIOS, AWS, MUI, FORMIK, YUP ",
     url: "https://ecommerce-v1-646k.vercel.app/",
     img: "img/audiophile-mobile.png",
 });
